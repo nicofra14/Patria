@@ -36,3 +36,4 @@ function showSlider(type){
     }, timeRunning)
 
 }
+

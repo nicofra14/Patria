@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patria Garden</title>
+    <title>Patria Gómez</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,70 +20,88 @@
             <div class="item">
                 <img src="img/6.jpeg">
                 <div class="content">
-                    <div class="author">PATRIA GARDEN</div>
+                    <div class="author">PATRIA GÓMEZ</div>
                     <div class="title">DISEÑOS</div>
                     <div class="topic">EXCLUSIVOS</div>
                     <div class="des">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus id blanditiis eos cum, quos eveniet reprehenderit possimus enim odio aliquid? Aperiam, at! Autem, optio provident? At totam aut exercitationem soluta.                    </div>
-                    <div class="button">
-                        <button>Información</button>
-                        <button>Contacto</button>
-                    </div>
+                    <div class="buttons">
+                        <button id="openModalButton">Información</button>
+                        <button class="whats" onclick="window.open('https://wa.me/34600916338?text=Hola,%20me%20gustaría%20obtener%20más%20información', '_blank')">Contacto</button>                        </button>
+                        </div>
                 </div>
             </div>
             <div class="item">
                 <img src="img/1.jpeg">
                 <div class="content">
-                    <div class="author">PATRIA GARDEN</div>
+                    <div class="author">PATRIA GÓMEZ</div>
                     <div class="title">DISEÑOS</div>
                     <div class="topic">EXCLUSIVOS</div>
                     <div class="des">
                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eligendi consectetur repellat quisquam tempora vel sunt dolore in veniam. Natus ea similique vero alias dicta fugit rerum recusandae dolorum aspernatur! 
                     </div>
-                    <div class="button">
+                    <div class="buttons">
                         <button>Información</button>
-                        <button>Contacto</button>
-                    </div>
+                        <button class="whats" onclick="window.open('https://wa.me/34600916338?text=Hola,%20me%20gustaría%20obtener%20más%20información', '_blank')">Contacto</button>                        </button>
+                        </div>
                 </div>
             </div>
             <div class="item">
                 <img src="img/19.jpeg">
                 <div class="content">
-                    <div class="author">PATRIA GARDEN</div>
+                    <div class="author">PATRIA GÓMEZ</div>
                     <div class="title">DISEÑOS</div>
                     <div class="topic">EXCLUSIVOS</div>
                     <div class="des">
                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eligendi consectetur repellat quisquam tempora vel sunt dolore in veniam. Natus ea similique vero alias dicta fugit rerum recusandae dolorum aspernatur! 
                     </div>
-                    <div class="button">
+                    <div class="buttons">
                         <button>Información</button>
-                        <button>Contacto</button>
-                    </div>
+                        <button class="whats" onclick="window.open('https://wa.me/34600916338?text=Hola,%20me%20gustaría%20obtener%20más%20información', '_blank')">Contacto</button>                        </button>
+                        </div>
                 </div>
             </div>
             <div class="item">
                 <img src="img/4.jpeg">
                 <div class="content">
-                    <div class="author">PATRIA GARDEN</div>
+                    <div class="author">PATRIA GÓMEZ</div>
                     <div class="title">DISEÑOS</div>
                     <div class="topic">EXCLUSIVOS</div>
                     <div class="des">
                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eligendi consectetur repellat quisquam tempora vel sunt dolore in veniam. Natus ea similique vero alias dicta fugit rerum recusandae dolorum aspernatur! 
                     </div>
-                    <div class="button">
+                    <div class="buttons">
                         <button>Información</button>
-                        <button>Contacto</button>
+                        <button class="whats" onclick="window.open('https://wa.me/34600916338?text=Hola,%20me%20gustaría%20obtener%20más%20información', '_blank')">Contacto</button>                        </button>
                     </div>
                 </div>
             </div>
         </div>
+        
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2>Formulario de Registro</h2>
+              <!-- Aquí puedes agregar tu formulario de registro -->
+              <form>
+                <!-- Campos del formulario -->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <!-- Otros campos del formulario -->
+          
+                <!-- Botón de envío del formulario -->
+                <button type="submit">Registrarse</button>
+              </form>
+            </div>
+          </div>
+
         <div class="thumbnail">
             
             <div class="item">
                 <img src="img/1.jpeg">
                 <div class="content">
                     <div class="title">
-                        Name Slider
+                        SERVICIOS
                     </div>
                     <div class="des">
                         Description
@@ -94,7 +112,7 @@
                 <img src="img/19.jpeg">
                 <div class="content">
                     <div class="title">
-                        Name Slider
+                        PROYECTOS
                     </div>
                     <div class="des">
                         Description
@@ -105,7 +123,7 @@
                 <img src="img/4.jpeg">
                 <div class="content">
                     <div class="title">
-                        Name Slider
+                        BLOG
                     </div>
                     <div class="des">
                         Description
@@ -116,7 +134,7 @@
                 <img src="img/6.jpeg">
                 <div class="content">
                     <div class="title">
-                        Name Slider
+                        INICIO
                     </div>
                     <div class="des">
                         Description
